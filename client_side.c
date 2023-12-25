@@ -11,9 +11,7 @@ int main()
 
 	int sock;
 	struct sockaddr_in addr;
-	// socklen_t addr_size;
 	char buffer[1024];
-	// int n;
 
 	sock = socket(AF_INET, SOCK_STREAM, 0);
 	if(sock < 0)
